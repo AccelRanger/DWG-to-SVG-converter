@@ -44,5 +44,3 @@ dwg2svg/
 - DWG is a closed format, so the tool converts DWG -> DXF (via ODA) -> SVG (via ezdxf).
 - Very complex drawings (3D solids, proxy objects, some custom fonts) may render incompletely.
 - Only the Model space is exported, not paper-space layouts.
-
-See [DESIGN.md](DESIGN.md) for how it is built and the full source code.
